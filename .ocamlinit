@@ -1,0 +1,12 @@
+#directory "_build";;
+#load "graphics.cma";;
+#load "types.cmo";;
+#load "processor.cmo";;
+#load "gui.cmo";;
+#load "main.cmo";;
+
+open Types;;
+open Processor;;
+open Gui;;
+open Main;;
+play ();;
